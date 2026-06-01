@@ -1,0 +1,32 @@
+# .NET / F# build artifacts
+bin/
+obj/
+out/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.userprefs
+.vs/
+.vscode/
+.idea/
+
+# Build output
+*.dll
+*.exe
+*.pdb
+*.dll.config
+
+# NuGet
+*.nupkg
+.nuget/
+packages/
+project.lock.json
+project.fragment.lock.json
+
+# Misc
+*.swp
+*.log
+*~
+.DS_Store
+Thumbs.db
